@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  background: white;
+  color: black;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* home */
+.banner-1,
+.banner-2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  position: relative;
+}
+
+.banner-1 {
+  background-image: url(../images/banner-1.jpg);
+}
+
+.banner-2 {
+  background-image: url(../images/s1.jpg);
+}
+
+.banner .banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -50%);
+}
+
+.banner .banner-text h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+/* .home .carousel-indicators[data-bs-target]{
+    background-color: red;
+    width: 2.5rem;
+    height: 0.313rem;
+}
+
+.home .carousel-control-next-icon,
+.home .carousel-control-prev-icon{
+    background: transparent;
+}
+
+.home .slider-icon{
+    font-size: 5rem;
+    font-weight: 600;
+    color: red;
+} */
+
+/* nav */
+#top_nav {
+  padding: 3px 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 255);
+  font-size: 18px;
+  padding-right: 25px;
+}
+
+/* Someone CSS*/
+.someone {
+  padding-top: 3.75rem;
+}
+
+.headline h2::before {
+  content: "";
+  width: 30%;
+  height: 0.125rem;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.625rem;
+}
+
+.login-options .login-text h3 {
+  color: red;
+}
+
+.someone a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-options .login-img .num {
+  background: red;
+  border-radius: 1rem;
+  color: white;
+  font-size: 0.813rem;
+  padding: 0.125rem 0.813rem;
+  position: absolute;
+  left: 10rem;
+  top: -1.988rem;
+  z-index: 99;
+}
+
+.login-options .login-img img {
+  width: 250px;
+  height: 250px;
+}
+
+/* Success Stories CSS */
+.success-stories {
+  padding: 3rem 0 5rem;
+}
+
+.success-stories .success-stories-wrapper {
+  background: white;
+  margin: auto;
+  padding: 1rem 5rem;
+  border: 0.063rem solid white;
+  border-radius: 0.625rem;
+}
+
+.success-stories .success-stories-wrapper img {
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+  margin: 1.25rem auto;
+  object-fit: cover;
+  background-color: white;
+  border: 00.063rem solid white;
+}
+
+/* down indicators */
+.success-stories .carousel-indicators {
+  bottom: -0.8rem;
+}
+
+.success-stories .carousel-control-prev {
+  left: -8.75rem;
+}
+
+.success-stories .carousel-control-next {
+  right: -8.75rem;
+}
+
+/* Contact CSS */
+.contact {
+  padding: 3rem 0;
+  background-color: whitesmoke;
+}
+.contact .info li p a {
+  font-size: 1rem;
+  display: inline-block;
+  padding-top: 0.95rem;
+  color: black;
+  text-decoration: none;
+}
+.contact .form-group {
+  margin-bottom: 1.5rem;
+}
+.contact .form-control {
+  height: 3.75rem;
+  padding: 0.375rem 1.1875rem;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 0.1875rem 1.25rem 0 rgb(0 0 0 / 12%);
+}
+.contact .textarea {
+  width: 100%;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.1875rem;
+  border: none;
+  font-size: 1rem;
+  margin-top: 0.3125rem;
+  box-shadow: 0 0.1875rem 1.25rem 0 rgb(0 0 0 / 12%);
+}
+.contact .textarea:focus {
+  outline: none;
+  border: none;
+}
+
+/* Footer CSS */
+
+.copyright {
+  background: red;
+}
+.copyright p,
+.copyright a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Scroll Back To Top */
+#scrollUp {
+  position: fixed;
+  right: 2%;
+  bottom: 3%;
+  height: 2.813rem;
+  width: 2.5rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  cursor: pointer;
+  z-index: 500;
+  display: none;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+#scrollUp span {
+  line-height: 2.625rem;
+}
+#scrollUp.scrollActive {
+  display: block;
+}
+

@@ -1,0 +1,118 @@
+@media (max-width: 1030px){
+    /* Home CSS */
+    .banner-1,
+    .banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+
+    .banner .banner-text{
+        transform: translate(-90%, -50%);
+    }
+}
+
+/* Ipad */
+@media (max-width:991px) {
+    .banner .banner-text{
+        transform: translate(-78%, -50%);
+    }
+
+    .login-options .login-text p{
+        padding-bottom: 2.8rem;
+    }
+
+    .login-options .login-img img{
+        padding-top: 3rem;
+    }
+
+    
+    /* success-stories */
+    .success-stories .carousel-control-prev{
+        left: -1.75rem;
+    }
+    
+    .success-stories .carousel-control-next{
+        right: -1.75rem;
+    }
+
+}
+
+
+/* Iphone x */
+@media (max-width: 767px){
+    .banner-1,
+    .banner-2{
+        background-position: 45% center;
+        min-height: 450px;
+    }
+
+    .banner .banner-text{
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .banner .banner-text h1{
+        font-size: 3rem;
+    }
+
+    .banner .banner-text h1 .btn-danger{
+        padding: 0.5rem 1.5rem;
+    }
+
+    .login-options .login-img .num{
+        left: 10rem;
+    }
+
+    /* success-stories */
+    .success-stories .carousel-control-prev{
+        left: -0.55rem;
+    }
+    
+    .success-stories .carousel-control-next{
+        right: -0.55rem;
+    }
+
+    .success-stories .success-stories-wrapper{
+        padding: 1rem;
+    }
+    .success-stories .carousel-control-next-icon,
+    .success-stories .carousel-control-prev-icon{
+    display: none;
+    }
+}
+
+
+/* Iphone 5/SE */
+@media (max-width: 330px){
+    .banner-1,
+    .banner-2{
+        background-position: 50% center;
+        min-height: 450px;
+    }
+
+    .banner .banner-text h1{
+        font-size: 1.7rem;
+    }
+
+    .login-options .login-img .num{
+        position: absolute;
+        left: 8.5rem;
+        top: -1.988rem;
+        z-index: 99;
+    }
+
+    .someone{
+        padding-top: 2.75rem;
+    }
+    
+}
+
+
+.family td {
+    padding: 15px;
+  }
+  
+.family table {
+    border-spacing: 30px;
+  }

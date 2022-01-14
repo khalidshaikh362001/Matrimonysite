@@ -1,0 +1,20 @@
+
+/* breadcrumb */
+.container .breadcrumb {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .container .breadcrumb a{
+    color: red;  
+  }
+
+  .register-text a{
+    color: red;
+    text-decoration: none;
+  }
+
+
+  
+
+
